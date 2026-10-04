@@ -36,7 +36,6 @@ The package does not contain the complete `boot_partition.img`, the 8 MiB `dtbo.
    ```sh
    source build/envsetup.sh
    breakfast franklin
-````
 
  If the initial setup stops because `vendor/amlogic/g12-common/BoardConfigVendor.mk` does not yet exist, this is because the blobs have not been extracted yet. Keep the common tree that `breakfast` synchronized, continue with the next step, and run `breakfast franklin` again after extraction.
 
