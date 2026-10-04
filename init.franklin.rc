@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+# Franklin-specific services retained without importing the stock ZTE app rc.
+
+service wifi_bt_prop_set /vendor/bin/wifi_bt_prop_set
+    class core
+    oneshot
+
+# The stock board rc exposes this LED control through a ZTE property.
+on property:persist.sys.zte.led.status=*
+    write /proc/ledlight/ledpower/state ${persist.sys.zte.led.status}

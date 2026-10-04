@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_device_amlogic_g12-common",
+    "target_path": "device/amlogic/g12-common"
+  },
+  {
+    "repository": "android_device_amlogic_common",
+    "target_path": "device/amlogic/common"
+  }
+]

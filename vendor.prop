@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+ro.soc.manufacturer=Amlogic
+ro.soc.model=AMLS905X2
+ro.vendor.btmodule=multibt
+ro.vendor.platform.has.tuner=1

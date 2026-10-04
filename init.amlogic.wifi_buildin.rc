@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
+# Intentionally empty: the common Amlogic init imports this filename, but it
+# was absent from the inspected Franklin vendor image. The stock Wi-Fi HAL and
+# wifi_bt_prop_set service handle chipset selection for this device.
